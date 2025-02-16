@@ -15,7 +15,7 @@ const noTexts = [
   "不行:(",
 ];
 if (username) {
-  questionText.innerText = questionText.innerText + username;
+  questionText.innerText = username + "，" + questionText.innerText;
 }
 // No 按钮点击事件
 noButton.addEventListener("click", function () {
